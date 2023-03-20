@@ -22,7 +22,7 @@ pkg install git
 
 pkg install figlet
 
-git clone https://github.com/COBRA-404-CYBER/T-MAKER
+git clone --depth=1 https://github.com/COBRA-404-CYBER/T-MAKER
 
 cd T-MAKER
 
