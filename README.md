@@ -30,7 +30,7 @@ python maker.py
 
 ```
 
-<a href="#"><img title="COBRA-404-CYBER" src="https://a.top4top.io/p_26354rhi70.jpg"></a>
+<a href="#"><img title="COBRA-404-CYBER" src="https://top4top.io/del7a5e074a5cb8fe519db1ac57f2e3e014.html"></a>
 <h1 align="center"></h1>
 
 ### </> IF YOU COPY, GIVE ME CREDITS</>
