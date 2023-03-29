@@ -1,0 +1,98 @@
+import os
+import random 
+import sys
+import time
+os.system("clear")
+# FB_ID_NAME
+# EXAMPLE_FB_ID_LINK
+# GITHUB_KINK
+# SHORT_NAME
+# EXAMPLE_NAME
+os.system("xdg-open https://www.facebook.com/groups/1354738058401296/?ref=share&mibextid=NSMWB")
+gflst = ["https://www.facebook.com/profile.php?id=100084173966537&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100068887960510&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100075629173241&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100083787315350&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100015728161221&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100080695182308&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100084699956968&mibextid=ZbWKwL","https://www.facebook.com/xannat.mallik998?mibextid=ZbWKwL","https://www.facebook.com/shayba.sohana.58?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090317411911&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100089891107724&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090395395441&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090096744743&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100074084886217&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090803213799&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090323144674&mibextid=ZbWKwL","https://www.facebook.com/arushisara333?mibextid=ZbWKwL","https://www.facebook.com/riya.720015?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090534613726&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100088693298488&mibextid=ZbWKwL","https://www.facebook.com/noor.sinthia.3?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100055557192982&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100091062422880&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100089782722602&mibextid=ZbWKwL","https://www.facebook.com/shayba.sohana.58?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090138715711&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090595954464&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090820673283&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090475451996&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100081830787542&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100080646791673&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100080310580808&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100087355119527&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090082054250&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100078009717619&mibextid=ZbWKwL","https://www.facebook.com/mayamoni.599026?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090740277324&mibextid=ZbWKwL","https://www.facebook.com/mohona.park.2023?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090380491224&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090804559561&mibextid=ZbWKwL",'https://www.facebook.com/profile.php?id=100090496813115&mibextid=ZbWKwL','https://www.facebook.com/profile.php?id=100090908714439&mibextid=ZbWKwL',"https://www.facebook.com/profile.php?id=100088641283573&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090993885975&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090925430547&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090260011703&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100089682243642&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100090975527078&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100080280251045&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100077700228691&mibextid=ZbWKwL"]
+
+gfnot = ["\033[38;5;46mMAIA TA VALO ACHE","\033[38;5;46mMAIA TA MOTAMOTI VLOI ACHE","\x1b[38;5;208mMAIA TA 12 VATARI 😫","\x1b[38;5;208mMAIA TA 12 VATARI 2 MINUTE A POTE JABE","\033[38;5;46mMAIA TAR MON VLO 🥰","\x1b[38;5;208mMAIA TA ONEK RAGI POTAITE KOSTO HOBE","\033[38;5;46mMAIA TA ONEK HORNY 🥵","\033[38;5;46mMAIA TA ONEK SEXY 🙈","\033[38;5;46mADMIN ER CRUSH ETA 🥴","\x1b[38;5;208mMAIA TA 14 VATARI 🤣","\033[38;5;46mMEYE TAR BAP KOTIPOTI","\x1b[38;5;208mMEYE TA CHEKA KHAWA","\033[38;5;46mONEK SUNDORI MEYE","\033[38;5;46mMEYE TA ONEK CUTE","\033[38;5;46m MEYE TAR VOICE ONEK CUTE","\x1b[38;5;208m ETA HALF LADICE 🥴","\033[38;5;46m TOMAR JONNO EKDOM PARFECT","\x1b[38;5;208m TIME KORIO MAIA TA 12 VATARI 😫","\033[38;5;46m VALO MONER MEYE ONEK 🥰"]
+
+bflst = ["https://www.facebook.com/F4RH4NKHAN?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100022046585932&mibextid=ZbWKwL","https://www.facebook.com/MerajAhmed444?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100015014017134&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100062682926039&mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100086494416066&mibextid=ZbWKwL","https://www.facebook.com/Zahin.Saad.04?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100028257572758&mibextid=ZbWKwL","https://www.facebook.com/virtual.galibaz?mibextid=ZbWKwL","https://www.facebook.com/FarhanXTermux?mibextid=ZbWKwL","https://www.facebook.com/picchi.rony.islam.2007?mibextid=ZbWKwL","https://www.facebook.com/Ebrahimmolla6?mibextid=ZbWKwL","https://www.facebook.com/mdebrahim.molla0?mibextid=ZbWKwL","https://www.facebook.com/toukir.ahmed.140?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100070149295478&mibextid=ZbWKwL","https://www.facebook.com/FaysalXTermux?mibextid=ZbWKwL","https://www.facebook.com/profile.php?id=100086015471108&mibextid=ZbWKwL","EXAMPLE_FB_ID_LINK","EXAMPLE_FB_ID_LINK","https://www.facebook.com/F4RH4NKHAN?mibextid=ZbWKwL"]
+
+def line():
+  print("--------------------------------------------------")
+
+def slw(J):
+  for i in J:
+    sys.stdout.write(i)
+    sys.stdout.flush()
+    time.sleep(0.1)
+
+def clear():
+  os.system("clear")
+  baner= os.system("figlet -f slant SHORT_NAME")
+  baner = str(baner)
+  baner = baner.replace("0","")
+  print(baner)
+  line()
+  print("\033[1;37m[\033[38;5;46m+\033[1;37m] AUTHOR   : EXAMPLE_NAME ")
+  print("\033[1;37m[\033[38;5;46m+\033[1;37m] GITHUB   : GITHUB_KINK ")
+  print("\033[1;37m[\033[38;5;46m+\033[1;37m] PROJECT  : GF/BF HACKING ")
+  print("\033[1;37m[\033[38;5;46m+\033[1;37m] FACEBOOK : FB_ID_NAME ")
+  line()
+
+def gf():
+  os.system("clear")
+  gfi = random.choice(gflst)
+  gfg = random.choice(gfnot)
+  clear()
+  slw("\033[1;37m[\033[38;5;46m+\033[1;37m]\033[38;5;46m SEARCHING YOU GF....... ")
+  time.sleep(1)
+  os.system("clear")
+  clear()
+  print("\n[+] YOUR GF ID : \033[38;5;46m"+str(gfi))
+  print("\n\033[1;37m[\x1b[38;5;208m!\033[1;37m] NOTICE : "+str(gfg))
+  us = input("\n\033[1;37m[\033[38;5;46m+\033[1;37m] NEED MORE GF ? (y/n) : ")
+  if us == "y":
+    gf()
+  elif usr == "n":
+    os.system("xdg-open "+str(gfi))
+    sys.exit()
+  else:
+    sys.exit()
+
+
+def bf():
+  os.system("clear")
+  bfi = random.choice(bflst)
+  clear()
+  slw("\033[1;37m[\033[38;5;46m+\033[1;37m] SEARCHING YOU BF....... ")
+  time.sleep(1)
+  os.system("clear")
+  clear()
+  print("\n\033[1;37m[\033[38;5;46m+\033[1;37m] YOUR BF ID : \033[38;5;46m"+str(bfi))
+  us = input("\n\033[1;37m[\033[38;5;46m+\033[1;37m] NEED MORE BF ? (y/n) : ")
+  if us == "y":
+    bf()
+  elif usr == "n":
+    os.system("xdg-open "+str(bfi))
+    sys.exit()
+  else:
+    sys.exit()
+
+
+
+
+clear()
+print("[01] START GF HACKING")
+print("[02] START BF HACKING")
+print("[03] CONTACT ME ON FACEBOOK ")
+line()
+usr = input("\033[1;37m[\033[38;5;46m+\033[1;37m] YOUR CHOICE : ")
+usr=usr.replace(" ","")
+if usr== "1" or usr== "01":
+  gf()
+elif usr == "2" or usr == "02":
+  bf()
+elif usr== "3" or usr== "03":
+  os.system("xdg-open EXAMPLE_FB_ID_LINK")
+  sys.exit()
+else:
+  print("\033[38;5;195m\n[\033[1;31m!\033[38;5;195m]\033[1;31m WRONG OPTION ENTERED..\n")
+  sys.exit()
